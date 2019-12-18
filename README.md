@@ -12,4 +12,5 @@ after that you can call the functions like that :
 numberToString(1234);  
 let str1 = rot13("eretrt");
   
+If you found any bug or issue feel free to report it.  
 All rights are reserved.  

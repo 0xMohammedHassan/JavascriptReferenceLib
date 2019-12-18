@@ -4,9 +4,12 @@ Javascript reference library , make the web developer life more easy :)
 # Usage:
 put the JRL file into your JS folder and insert this code at the top of your file to import this lib:
 
+  
 let imported = document.createElement('script');  
-imported.src = 'lib.js';  
-document.head.appendChild(imported);  
+document.body.appendChild(imported);  
+  
+and insert at the end of your body  
+<script  src="lib.js"></script>
 
 after that you can call the functions like that :  
 numberToString(1234);  

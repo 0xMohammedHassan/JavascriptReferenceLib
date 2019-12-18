@@ -9,7 +9,7 @@ let imported = document.createElement('script');
 document.body.appendChild(imported);  
   
 and insert at the end of your body  
-<script  src="lib.js"></script>
+<script  src="lib.js"></script>  
 
 after that you can call the functions like that :  
 numberToString(1234);  
